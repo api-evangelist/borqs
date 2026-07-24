@@ -1,8 +1,27 @@
 aid: borqs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/borqs.png
 name: Borqs
-description: 'Borqs is a company surfaced as a portfolio company of accel, norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: mobile. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Borqs Technologies Inc. is a global Internet of Things (IoT) platform
+  solution provider delivering customizable, differentiated and scalable smart-connected
+  IoT software, hardware and cloud-service platforms. Founded in 2007, Borqs is a
+  Google-licensed Android and Android Wear partner with R&D centers in the U.S., India
+  and China, and debuted publicly on Nasdaq (BRQS) in August 2017. Its BorqsWare platform
+  powers smartphones, tablets, wearables, in-vehicle infotainment (IVI), M2M and smart-appliance
+  solutions, and in 2021 it expanded into solar and energy storage systems (ESS) via
+  its Holu Hou Energy acquisition. Borqs is now a Sasken Group company. No public developer
+  API, OpenAPI, or developer portal is published; this profile carries company identity
+  and a live domain-security probe.'
 url: https://raw.githubusercontent.com/api-evangelist/borqs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Mobile
+- IoT
+- Android
+- Embedded Software
+- Wearables
+- Automotive
+- Energy Storage
+- Cloud Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +51,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.borqs.com/
+  url: https://www.borqs.com/
+- type: About
+  url: https://www.borqs.com/AboutUs/CompanyProfile.html
+- type: Support
+  url: https://www.borqs.com/AboutUs/ContactUs.html
+- type: Blog
+  url: https://www.borqs.com/NewsEvents/News/
+- type: InvestorRelations
+  url: https://www.borqs.com/AboutUs/InvestorRelations.html
+- type: DownloadCenter
+  url: https://www.borqs.com/AboutUs/DownloadCenter.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/borqs
+- type: GooglePlay
+  url: https://play.google.com/store/apps/developer?id=Borqs+Technologies
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Borqs
+- type: DomainSecurity
+  url: security/borqs-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
